@@ -1,6 +1,6 @@
 #ifndef MONTY_H
-#define _POSIX_C_SOURCE 200809L
 #define MONTY_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -15,7 +15,7 @@
  * @next: points to the next element of the stack (or queue)
  *
  * Description: doubly linked list node structure
- * for stack, queues, LIFO, FIFO Holberton project
+ * for stack, queues, LIFO, FIFO Holberton
  */
 typedef struct stack_s
 {
